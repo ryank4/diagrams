@@ -32,4 +32,3 @@ class Robotics(_Robotics):
     _icon = "robotics.png"
 
 
-# Aliases

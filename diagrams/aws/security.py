@@ -24,6 +24,10 @@ class CertificateManager(_Security):
     _icon = "certificate-manager.png"
 
 
+class ACM(_Security):
+    _icon = "certificate-manager.png"
+
+
 class CloudDirectory(_Security):
     _icon = "cloud-directory.png"
 
@@ -31,6 +35,9 @@ class CloudDirectory(_Security):
 class Cloudhsm(_Security):
     _icon = "cloudhsm.png"
 
+
+class CloudHSM(_Security):
+    _icon = "cloudhsm.png"
 
 class Cognito(_Security):
     _icon = "cognito.png"
@@ -44,7 +51,15 @@ class DirectoryService(_Security):
     _icon = "directory-service.png"
 
 
+class DS(_Security):
+    _icon = "directory-service.png"
+
+
 class FirewallManager(_Security):
+    _icon = "firewall-manager.png"
+
+
+class FMS(_Security):
     _icon = "firewall-manager.png"
 
 
@@ -56,6 +71,10 @@ class IdentityAndAccessManagementIamAccessAnalyzer(_Security):
     _icon = "identity-and-access-management-iam-access-analyzer.png"
 
 
+class IAMAccessAnalyzer(_Security):
+    _icon = "identity-and-access-management-iam-access-analyzer.png"
+
+
 class IdentityAndAccessManagementIamAddOn(_Security):
     _icon = "identity-and-access-management-iam-add-on.png"
 
@@ -64,7 +83,7 @@ class IdentityAndAccessManagementIamAWSStsAlternate(_Security):
     _icon = "identity-and-access-management-iam-aws-sts-alternate.png"
 
 
-class IdentityAndAccessManagementIamAWSSts(_Security):
+class IAMAWSSts(_Security):
     _icon = "identity-and-access-management-iam-aws-sts.png"
 
 
@@ -88,7 +107,15 @@ class IdentityAndAccessManagementIamPermissions(_Security):
     _icon = "identity-and-access-management-iam-permissions.png"
 
 
+class IAMPermissions(_Security):
+    _icon = "identity-and-access-management-iam-permissions.png"
+
+
 class IdentityAndAccessManagementIamRole(_Security):
+    _icon = "identity-and-access-management-iam-role.png"
+
+
+class IAMRole(_Security):
     _icon = "identity-and-access-management-iam-role.png"
 
 
@@ -97,6 +124,10 @@ class IdentityAndAccessManagementIamTemporarySecurityCredential(_Security):
 
 
 class IdentityAndAccessManagementIam(_Security):
+    _icon = "identity-and-access-management-iam.png"
+
+
+class IAM(_Security):
     _icon = "identity-and-access-management-iam.png"
 
 
@@ -112,6 +143,10 @@ class KeyManagementService(_Security):
     _icon = "key-management-service.png"
 
 
+class KMS(_Security):
+    _icon = "key-management-service.png"
+
+
 class Macie(_Security):
     _icon = "macie.png"
 
@@ -121,6 +156,10 @@ class ManagedMicrosoftAd(_Security):
 
 
 class ResourceAccessManager(_Security):
+    _icon = "resource-access-manager.png"
+
+
+class RAM(_Security):
     _icon = "resource-access-manager.png"
 
 
@@ -164,16 +203,3 @@ class WAF(_Security):
     _icon = "waf.png"
 
 
-# Aliases
-
-ACM = CertificateManager
-CloudHSM = Cloudhsm
-DS = DirectoryService
-FMS = FirewallManager
-IAMAccessAnalyzer = IdentityAndAccessManagementIamAccessAnalyzer
-IAMAWSSts = IdentityAndAccessManagementIamAWSSts
-IAMPermissions = IdentityAndAccessManagementIamPermissions
-IAMRole = IdentityAndAccessManagementIamRole
-IAM = IdentityAndAccessManagementIam
-KMS = KeyManagementService
-RAM = ResourceAccessManager

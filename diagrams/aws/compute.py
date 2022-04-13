@@ -12,6 +12,10 @@ class ApplicationAutoScaling(_Compute):
     _icon = "application-auto-scaling.png"
 
 
+class AutoScaling(_Compute):
+    _icon = "application-auto-scaling.png"
+
+
 class Batch(_Compute):
     _icon = "batch.png"
 
@@ -28,6 +32,10 @@ class EC2Ami(_Compute):
     _icon = "ec2-ami.png"
 
 
+class AMI(_Compute):
+    _icon = "ec2-ami.png"
+
+
 class EC2AutoScaling(_Compute):
     _icon = "ec2-auto-scaling.png"
 
@@ -41,6 +49,10 @@ class EC2ContainerRegistryRegistry(_Compute):
 
 
 class EC2ContainerRegistry(_Compute):
+    _icon = "ec2-container-registry.png"
+
+
+class ECR(_Compute):
     _icon = "ec2-container-registry.png"
 
 
@@ -84,6 +96,10 @@ class ElasticBeanstalk(_Compute):
     _icon = "elastic-beanstalk.png"
 
 
+class EB(_Compute):
+    _icon = "elastic-beanstalk.png"
+
+
 class ElasticContainerServiceContainer(_Compute):
     _icon = "elastic-container-service-container.png"
 
@@ -96,7 +112,15 @@ class ElasticContainerService(_Compute):
     _icon = "elastic-container-service.png"
 
 
+class ECS(_Compute):
+    _icon = "elastic-container-service.png"
+
+
 class ElasticKubernetesService(_Compute):
+    _icon = "elastic-kubernetes-service.png"
+
+
+class EKS(_Compute):
     _icon = "elastic-kubernetes-service.png"
 
 
@@ -125,6 +149,10 @@ class Outposts(_Compute):
 
 
 class ServerlessApplicationRepository(_Compute):
+    _icon = "serverless-application-repository.png"
+
+
+class SAR(_Compute):
     _icon = "serverless-application-repository.png"
 
 
@@ -164,12 +192,3 @@ class Wavelength(_Compute):
     _icon = "wavelength.png"
 
 
-# Aliases
-
-AutoScaling = ApplicationAutoScaling
-AMI = EC2Ami
-ECR = EC2ContainerRegistry
-EB = ElasticBeanstalk
-ECS = ElasticContainerService
-EKS = ElasticKubernetesService
-SAR = ServerlessApplicationRepository

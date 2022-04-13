@@ -35,5 +35,3 @@ class Mobile(_Mobile):
 class Pinpoint(_Mobile):
     _icon = "pinpoint.png"
 
-
-# Aliases

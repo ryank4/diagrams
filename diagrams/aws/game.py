@@ -16,4 +16,3 @@ class Gamelift(_Game):
     _icon = "gamelift.png"
 
 
-# Aliases

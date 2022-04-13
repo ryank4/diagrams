@@ -28,6 +28,10 @@ class DeepLearningContainers(_ML):
     _icon = "deep-learning-containers.png"
 
 
+class DLC(_ML):
+    _icon = "deep-learning-containers.png"
+    
+    
 class Deepcomposer(_ML):
     _icon = "deepcomposer.png"
 
@@ -120,6 +124,3 @@ class Translate(_ML):
     _icon = "translate.png"
 
 
-# Aliases
-
-DLC = DeepLearningContainers

@@ -16,6 +16,10 @@ class CloudendureDisasterRecovery(_Storage):
     _icon = "cloudendure-disaster-recovery.png"
 
 
+class CDR(_Storage):
+    _icon = "cloudendure-disaster-recovery.png"
+
+
 class EFSInfrequentaccessPrimaryBg(_Storage):
     _icon = "efs-infrequentaccess-primary-bg.png"
 
@@ -36,11 +40,19 @@ class ElasticBlockStoreEBS(_Storage):
     _icon = "elastic-block-store-ebs.png"
 
 
+class EBS(_Storage):
+    _icon = "elastic-block-store-ebs.png"
+
+
 class ElasticFileSystemEFSFileSystem(_Storage):
     _icon = "elastic-file-system-efs-file-system.png"
 
 
 class ElasticFileSystemEFS(_Storage):
+    _icon = "elastic-file-system-efs.png"
+
+
+class EFS(_Storage):
     _icon = "elastic-file-system-efs.png"
 
 
@@ -53,6 +65,10 @@ class FsxForWindowsFileServer(_Storage):
 
 
 class Fsx(_Storage):
+    _icon = "fsx.png"
+
+
+class FSx(_Storage):
     _icon = "fsx.png"
 
 
@@ -85,6 +101,10 @@ class SimpleStorageServiceS3Object(_Storage):
 
 
 class SimpleStorageServiceS3(_Storage):
+    _icon = "simple-storage-service-s3.png"
+
+
+class S3(_Storage):
     _icon = "simple-storage-service-s3.png"
 
 
@@ -123,11 +143,3 @@ class StorageGateway(_Storage):
 class Storage(_Storage):
     _icon = "storage.png"
 
-
-# Aliases
-
-CDR = CloudendureDisasterRecovery
-EBS = ElasticBlockStoreEBS
-EFS = ElasticFileSystemEFS
-FSx = Fsx
-S3 = SimpleStorageServiceS3

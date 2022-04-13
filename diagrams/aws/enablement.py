@@ -28,4 +28,3 @@ class Support(_Enablement):
     _icon = "support.png"
 
 
-# Aliases

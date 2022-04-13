@@ -32,4 +32,3 @@ class SavingsPlans(_Cost):
     _icon = "savings-plans.png"
 
 
-# Aliases

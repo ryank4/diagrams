@@ -60,4 +60,3 @@ class MediaServices(_Media):
     _icon = "media-services.png"
 
 
-# Aliases

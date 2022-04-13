@@ -12,6 +12,10 @@ class Freertos(_Iot):
     _icon = "freertos.png"
 
 
+class FreeRTOS(_Iot):
+    _icon = "freertos.png"
+    
+    
 class InternetOfThings(_Iot):
     _icon = "internet-of-things.png"
 
@@ -156,6 +160,10 @@ class IotHardwareBoard(_Iot):
     _icon = "iot-hardware-board.png"
 
 
+class IotBoard(_Iot):
+    _icon = "iot-hardware-board.png"
+    
+    
 class IotHouse(_Iot):
     _icon = "iot-house.png"
 
@@ -252,7 +260,3 @@ class IotWindfarm(_Iot):
     _icon = "iot-windfarm.png"
 
 
-# Aliases
-
-FreeRTOS = Freertos
-IotBoard = IotHardwareBoard

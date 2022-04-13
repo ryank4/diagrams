@@ -28,6 +28,6 @@ class SimpleEmailServiceSes(_Engagement):
     _icon = "simple-email-service-ses.png"
 
 
-# Aliases
+class SES(_Engagement):
+    _icon = "simple-email-service-ses.png"
 
-SES = SimpleEmailServiceSes

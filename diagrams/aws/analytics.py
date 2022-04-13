@@ -36,6 +36,10 @@ class ElasticsearchService(_Analytics):
     _icon = "elasticsearch-service.png"
 
 
+class ES(_Analytics):
+    _icon = "elasticsearch-service.png"
+
+
 class EMRCluster(_Analytics):
     _icon = "emr-cluster.png"
 
@@ -120,6 +124,3 @@ class Redshift(_Analytics):
     _icon = "redshift.png"
 
 
-# Aliases
-
-ES = ElasticsearchService

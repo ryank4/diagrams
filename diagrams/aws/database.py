@@ -24,11 +24,19 @@ class DatabaseMigrationService(_Database):
     _icon = "database-migration-service.png"
 
 
+class DMS(_Database):
+    _icon = "database-migration-service.png"
+
+
 class Database(_Database):
     _icon = "database.png"
 
 
 class DocumentdbMongodbCompatibility(_Database):
+    _icon = "documentdb-mongodb-compatibility.png"
+
+
+class DocumentDB(_Database):
     _icon = "documentdb-mongodb-compatibility.png"
 
 
@@ -44,7 +52,15 @@ class DynamodbDax(_Database):
     _icon = "dynamodb-dax.png"
 
 
+class DAX(_Database):
+    _icon = "dynamodb-dax.png"
+
+
 class DynamodbGlobalSecondaryIndex(_Database):
+    _icon = "dynamodb-global-secondary-index.png"
+
+
+class DynamodbGSI(_Database):
     _icon = "dynamodb-global-secondary-index.png"
 
 
@@ -64,6 +80,10 @@ class Dynamodb(_Database):
     _icon = "dynamodb.png"
 
 
+class DDB(_Database):
+    _icon = "dynamodb.png"
+
+
 class ElasticacheCacheNode(_Database):
     _icon = "elasticache-cache-node.png"
 
@@ -80,6 +100,10 @@ class Elasticache(_Database):
     _icon = "elasticache.png"
 
 
+class ElastiCache(_Database):
+    _icon = "elasticache.png"
+
+
 class KeyspacesManagedApacheCassandraService(_Database):
     _icon = "keyspaces-managed-apache-cassandra-service.png"
 
@@ -89,6 +113,10 @@ class Neptune(_Database):
 
 
 class QuantumLedgerDatabaseQldb(_Database):
+    _icon = "quantum-ledger-database-qldb.png"
+
+
+class QLDB(_Database):
     _icon = "quantum-ledger-database-qldb.png"
 
 
@@ -140,13 +168,3 @@ class Timestream(_Database):
     _icon = "timestream.png"
 
 
-# Aliases
-
-DMS = DatabaseMigrationService
-DocumentDB = DocumentdbMongodbCompatibility
-DAX = DynamodbDax
-DynamodbGSI = DynamodbGlobalSecondaryIndex
-DB = Database
-DDB = Dynamodb
-ElastiCache = Elasticache
-QLDB = QuantumLedgerDatabaseQldb

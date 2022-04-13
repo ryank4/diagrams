@@ -12,6 +12,10 @@ class AlexaForBusiness(_Business):
     _icon = "alexa-for-business.png"
 
 
+class A4B(_Business):
+    _icon = "alexa-for-business.png"
+
+
 class BusinessApplications(_Business):
     _icon = "business-applications.png"
 
@@ -24,6 +28,4 @@ class Workmail(_Business):
     _icon = "workmail.png"
 
 
-# Aliases
 
-A4B = AlexaForBusiness

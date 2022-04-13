@@ -44,7 +44,15 @@ class CommandLineInterface(_Devtools):
     _icon = "command-line-interface.png"
 
 
+class CLI(_Devtools):
+    _icon = "command-line-interface.png"
+
+
 class DeveloperTools(_Devtools):
+    _icon = "developer-tools.png"
+
+
+class DevTools(_Devtools):
     _icon = "developer-tools.png"
 
 
@@ -55,8 +63,3 @@ class ToolsAndSdks(_Devtools):
 class XRay(_Devtools):
     _icon = "x-ray.png"
 
-
-# Aliases
-
-CLI = CommandLineInterface
-DevTools = DeveloperTools

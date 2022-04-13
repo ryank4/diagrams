@@ -16,4 +16,3 @@ class Sumerian(_Ar):
     _icon = "sumerian.png"
 
 
-# Aliases

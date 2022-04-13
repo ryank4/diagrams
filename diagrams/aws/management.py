@@ -12,10 +12,6 @@ class AutoScaling(_Management):
     _icon = "auto-scaling.png"
 
 
-class Chatbot(_Management):
-    _icon = "chatbot.png"
-
-
 class CloudformationChangeSet(_Management):
     _icon = "cloudformation-change-set.png"
 
@@ -168,6 +164,10 @@ class SystemsManagerParameterStore(_Management):
     _icon = "systems-manager-parameter-store.png"
 
 
+class ParameterStore(_Management):
+    _icon = "systems-manager-parameter-store.png"
+    
+    
 class SystemsManagerPatchManager(_Management):
     _icon = "systems-manager-patch-manager.png"
 
@@ -181,6 +181,10 @@ class SystemsManagerStateManager(_Management):
 
 
 class SystemsManager(_Management):
+    _icon = "systems-manager.png"
+
+
+class SSM(_Management):
     _icon = "systems-manager.png"
 
 
@@ -212,7 +216,4 @@ class WellArchitectedTool(_Management):
     _icon = "well-architected-tool.png"
 
 
-# Aliases
 
-SSM = SystemsManager
-ParameterStore = SystemsManagerParameterStore

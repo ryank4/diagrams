@@ -24,6 +24,7 @@ class QuantumLedgerDatabaseQldb(_Blockchain):
     _icon = "quantum-ledger-database-qldb.png"
 
 
-# Aliases
+class QLDB(_Blockchain):
+    _icon = "quantum-ledger-database-qldb.png"
 
-QLDB = QuantumLedgerDatabaseQldb
+

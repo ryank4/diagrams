@@ -12,13 +12,25 @@ class ApplicationDiscoveryService(_Migration):
     _icon = "application-discovery-service.png"
 
 
+class ADS(_Migration):
+    _icon = "application-discovery-service.png"
+    
+    
 class CloudendureMigration(_Migration):
     _icon = "cloudendure-migration.png"
 
 
+class CEM(_Migration):
+    _icon = "cloudendure-migration.png"
+    
+
 class DatabaseMigrationService(_Migration):
     _icon = "database-migration-service.png"
 
+
+class DMS(_Migration):
+    _icon = "database-migration-service.png"
+    
 
 class DatasyncAgent(_Migration):
     _icon = "datasync-agent.png"
@@ -32,6 +44,10 @@ class MigrationAndTransfer(_Migration):
     _icon = "migration-and-transfer.png"
 
 
+class MAT(_Migration):
+    _icon = "migration-and-transfer.png"
+    
+    
 class MigrationHub(_Migration):
     _icon = "migration-hub.png"
 
@@ -39,6 +55,10 @@ class MigrationHub(_Migration):
 class ServerMigrationService(_Migration):
     _icon = "server-migration-service.png"
 
+
+class SMS(_Migration):
+    _icon = "server-migration-service.png"
+    
 
 class SnowballEdge(_Migration):
     _icon = "snowball-edge.png"
@@ -56,10 +76,4 @@ class TransferForSftp(_Migration):
     _icon = "transfer-for-sftp.png"
 
 
-# Aliases
 
-ADS = ApplicationDiscoveryService
-CEM = CloudendureMigration
-DMS = DatabaseMigrationService
-MAT = MigrationAndTransfer
-SMS = ServerMigrationService

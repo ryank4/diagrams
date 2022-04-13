@@ -36,6 +36,10 @@ class GenericOfficeBuilding(_General):
     _icon = "generic-office-building.png"
 
 
+class OfficeBuilding(_General):
+    _icon = "generic-office-building.png"
+    
+    
 class GenericSamlToken(_General):
     _icon = "generic-saml-token.png"
 
@@ -104,6 +108,3 @@ class Users(_General):
     _icon = "users.png"
 
 
-# Aliases
-
-OfficeBuilding = GenericOfficeBuilding

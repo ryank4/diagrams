@@ -44,6 +44,10 @@ class CloudFront(_Network):
     _icon = "cloudfront.png"
 
 
+class CF(_Network):
+    _icon = "cloudfront.png"
+
+
 class DirectConnect(_Network):
     _icon = "direct-connect.png"
 
@@ -52,7 +56,15 @@ class ElasticLoadBalancing(_Network):
     _icon = "elastic-load-balancing.png"
 
 
+class ELB(_Network):
+    _icon = "elastic-load-balancing.png"
+
+
 class ElbApplicationLoadBalancer(_Network):
+    _icon = "elb-application-load-balancer.png"
+
+
+class ALB(_Network):
     _icon = "elb-application-load-balancer.png"
 
 
@@ -60,7 +72,15 @@ class ElbClassicLoadBalancer(_Network):
     _icon = "elb-classic-load-balancer.png"
 
 
+class CLB(_Network):
+    _icon = "elb-classic-load-balancer.png"
+
+
 class ElbNetworkLoadBalancer(_Network):
+    _icon = "elb-network-load-balancer.png"
+
+
+class NLB(_Network):
     _icon = "elb-network-load-balancer.png"
 
 
@@ -69,6 +89,10 @@ class Endpoint(_Network):
 
 
 class GlobalAccelerator(_Network):
+    _icon = "global-accelerator.png"
+
+
+class GAX(_Network):
     _icon = "global-accelerator.png"
 
 
@@ -159,12 +183,3 @@ class VpnConnection(_Network):
 class VpnGateway(_Network):
     _icon = "vpn-gateway.png"
 
-
-# Aliases
-
-CF = CloudFront
-ELB = ElasticLoadBalancing
-ALB = ElbApplicationLoadBalancer
-CLB = ElbClassicLoadBalancer
-NLB = ElbNetworkLoadBalancer
-GAX = GlobalAccelerator

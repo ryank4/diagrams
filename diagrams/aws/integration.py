@@ -64,6 +64,10 @@ class SimpleNotificationServiceSns(_Integration):
     _icon = "simple-notification-service-sns.png"
 
 
+class SNS(_Integration):
+    _icon = "simple-notification-service-sns.png"
+    
+    
 class SimpleQueueServiceSqsMessage(_Integration):
     _icon = "simple-queue-service-sqs-message.png"
 
@@ -76,12 +80,14 @@ class SimpleQueueServiceSqs(_Integration):
     _icon = "simple-queue-service-sqs.png"
 
 
+class SQS(_Integration):
+    _icon = "simple-queue-service-sqs.png"
+    
+    
 class StepFunctions(_Integration):
     _icon = "step-functions.png"
 
 
-# Aliases
+class SF(_Integration):
+    _icon = "step-functions.png"
 
-SNS = SimpleNotificationServiceSns
-SQS = SimpleQueueServiceSqs
-SF = StepFunctions

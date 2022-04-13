@@ -28,4 +28,3 @@ class Workspaces(_Enduser):
     _icon = "workspaces.png"
 
 
-# Aliases
